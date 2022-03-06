@@ -1,0 +1,131 @@
+
+
+
+
+#title {
+	background-color: #ff4c68;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+
+
+  }
+
+
+#title h2{
+
+	color: white;
+	font-size: 4rem;
+	padding-top: 35px;
+	padding-bottom: 20px;
+
+}
+.dog-img{
+	position: absolute;
+	top: 41px;
+	    left: 679px; 
+}
+.details
+{
+	text-align: center;
+	margin-bottom: 30px;
+	
+
+
+}
+.details:hover{
+	 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.icon-area{
+	text-align: center;
+	color: #ff4c68;
+}
+.icon-area:hover{
+	
+	color: #ff4d87;
+	transform: scale(1.3);
+	transition: all .3s;
+
+}
+.icon-area i {
+	font-size: 6em;
+}
+
+#testimonials{
+	background-color: #ff4d87;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.prof-img{
+	width: 10%;
+	height: 10%;
+	border-radius: 100%;
+}
+.test-area{
+	font-size: 2rem;
+	font-weight: bold;
+}
+#cards-sec{
+	margin-bottom: 30px;
+	text-align:center;
+}
+.head-area{
+	padding-bottom: 20px;
+}
+#tle-ar{
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #ff4c68;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.tle-area h1{
+	font-size: 5rem;
+	padding-bottom: 20px;
+	color: white;
+}
+#footer{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#footer .fa-brands:hover{
+	color: #ff4c68;
+	
+}
+#footer .fa-solid:hover{
+	color: #ff4c68;
+	
+}
+
+#footer .fa-brands{
+	
+	padding: 10px;
+}
+#footer .fa-solid{
+	
+	padding: 10px;
+}
+
+@media  (max-width: 1290px) {
+  .dog-img {
+    position: absolute;
+   top: 41px;
+	    left: 479px; 
+  }
+}
+
+@media  (max-width: 1042px) {
+  .dog-img {
+    position: absolute;
+      top: 171px;
+    left: 518px;
+	    width: 40%; 
+  }
+}
